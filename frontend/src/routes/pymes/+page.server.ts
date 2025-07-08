@@ -20,7 +20,8 @@ export const load = async () => {
       lng: parseFloat(pyme.longitud.replace(',', '.')),
       trabajoRealizado: pyme.work_type,
       tipoEmpresa: pyme.enterprise_type,
-      sector: pyme.sector
+      sector: pyme.sector,
+      nivelMaduracion: pyme.nivelMaduracion
     }));
 
     return { pymes };
