@@ -1,6 +1,6 @@
 export const load = async () => {
   try {
-    const response = await fetch('http://adaptable-courage-production.up.railway.app/api/pyme/', {
+    const response = await fetch('http://adaptable-courage.railway.internal/api/pyme/', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
